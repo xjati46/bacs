@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '23+cp=oaxjo4wkl2b&o$mguqj=w!#l
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['bacsweb.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['bacsweb.herokuapp.com', '127.0.0.1', 'www.bandungarchery.com', 'bandungarchery.com']
 
 
 # Application definition
