@@ -1,0 +1,1 @@
+web: gunicorn bacsweb.wsgi --log-file -
